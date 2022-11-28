@@ -35,3 +35,6 @@ padding-top: 5rem;
 .border2 {
     border: 1px solid rgb(124, 124, 141);
 }
+.radio1{
+    display: flex;
+}
