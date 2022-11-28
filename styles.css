@@ -1,3 +1,37 @@
-p {
-    color: rgb(45, 45, 49);
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(81, 81, 153);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2rem 0;
+  width: 90%;
+  max-width: 80rem;
+}
+
+h4 {
+    color: brown;
+    background-color: aqua;
+}
+
+.wrapper {
+    border : 2px solid rgb(124, 124, 141); 
+}
+
+.inputs {
+ display: flex; 
+flex-direction: column; 
+padding: 8rem;
+padding-top: 5rem;
+}
+
+.input1 {
+    padding-top: 2rem;
+    width: 15%;        /* to maintain responsive */
+    min-width: 120px; 
+}
+
+.border2 {
+    border: 1px solid rgb(124, 124, 141);
 }
