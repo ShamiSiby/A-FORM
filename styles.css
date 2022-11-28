@@ -35,6 +35,13 @@ padding-top: 5rem;
 .border2 {
     border: 1px solid rgb(124, 124, 141);
 }
-.radio1{
+.radio1, .radio2{
     display: flex;
+    
 }
+
+.radio-input {
+    padding-left: 2rem;
+}
+
+
